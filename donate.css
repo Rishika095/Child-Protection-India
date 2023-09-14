@@ -1,0 +1,176 @@
+/* Global styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+}
+
+/* Logo area styles */
+.logo-area {
+    float: left;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+/* Donate box link styles */
+.donateBox a {
+    cursor: pointer;
+    line-height: 80px !important;
+}
+
+/* Donate box styles */
+.dntbox {
+    top: 150px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+/* Left image styles */
+.left_img {
+    max-width: 100%;
+    display: block;
+    width: auto;
+    border: 0;
+}
+
+/* Right side styles */
+/* Donate right container */
+.donate_right {
+    flex: 1;
+    padding: 20px;
+    margin-left: 100px;
+}
+
+/* Donate form styles */
+/* Tabs container */
+.tabs {
+    width: 48%;
+    display: inline-block;
+    margin: 10px 1% 10px 0;
+}
+
+/* Donate tabs input styles */
+.donate_tabs .tabs input {
+    width: 90%;
+    text-transform: uppercase;
+    background: white;
+    border: none;
+    border-radius: 5px;
+    color: red;
+    font-size: 20px;
+    font-family: trade gothic lt;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.donate_tabs .tabs input:hover {
+    border: none;
+    background: red;
+    color: #fff;
+}
+
+/* Info styles */
+.info {
+    background: #e6e6e6;
+    color: black;
+    border-radius: 5px;
+    width: 94%;
+    font-size: 18px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    margin: 10px 0;
+}
+
+/* Other styles */
+.other {
+    width: 94%;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+/* Pay styles */
+.pay {
+    margin: 10px 0px;
+    width: 100%;
+    display: flex;
+}
+
+/* Payment type styles */
+.pay-type {
+    font-size: 20px;
+    color: #010101;
+}
+
+/* Payment bank styles */
+.pay-bank {
+    margin-left: 40px;
+    text-transform: uppercase;
+    color: #010101;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.pay-bank span {
+    width: 22px;
+    height: 22px;
+    border: 1px solid red;
+    display: inline-block;
+    border-radius: 100%;
+    background: white;
+    transition: none;
+}
+
+/* Box button styles */
+.box-button {
+    width: 99%;
+    display: inline-block;
+    margin: 10px 0;
+    appearance: none;
+}
+
+.box-button input {
+    width: 95%;
+    display: inline-block;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 0;
+}
+
+/* Button styles */
+input[type=button] {
+    background: red;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+    line-height: 47px;
+    padding: 0 20px;
+    text-align: center;
+    border: none;
+}
+
+/* Banner styles */
+.banner {
+    position: relative;
+    width: 75%; 
+    display: grid;
+}
+
+.banner div {
+    position: relative;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner div img {
+    padding: 10px;
+}
