@@ -91,6 +91,10 @@ nav{
     padding: 10px;
 
 }
+.navbar-container ul li:hover .dropdown-menu ul li a{
+    text-decoration: none;
+    color: #231f20;
+}
 
 .dropdown-menu ul li:hover{
     background-color: red;

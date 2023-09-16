@@ -89,6 +89,10 @@ nav{
     padding: 10px 10px;
 
 }
+.navbar-container ul li:hover .dropdown-menu ul li a{
+    text-decoration: none;
+    color:#2e2e2e;
+}
 
 .dropdown-menu ul li:hover{
     background-color: red;
@@ -204,6 +208,7 @@ nav{
 }
 /* /footer style */
 .footer{
+    background: rgb(222, 8, 8);
     margin: 20px;
     height: auto;
     display: flex;
@@ -211,7 +216,7 @@ nav{
     padding: 30px 10px;
 }
 .column{
-    background: red;
+    
     width: 20%;
 }
 .column img{
@@ -253,8 +258,9 @@ nav{
     box-sizing: border-box;
 }
 .menu li a{
-    justify-content: left;
-    text-align: left;
+    line-height: 1.5;
+    text-decoration: none;
+    color: black;
 }
 .row p{
     float: left;
