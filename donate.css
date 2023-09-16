@@ -167,14 +167,16 @@ input[type=button] {
 
 /* footer style */
 .foot{
-    background: #333;
-    height: 230px;
+    display: flex;
+    background: #292929;
+    height: 170px;
     margin-left: 15px;
     margin-right: 15px;
     padding-top: 30px;
 }
 .row1{
-    width: 50%;
+    width: 48%;
+    height: 170px;
 }
 .row1 p{
     margin: 0px 0px 10px;
@@ -184,10 +186,11 @@ input[type=button] {
     color: #e6e6e6;
 }
 .row2{ 
+    float: left;
     height: 20px;
     width: 50%;
     padding: 20px 15px 0px;
-    min-height: 1px;
+    min-height: 10px;
     text-align: right;
 }
 .disclaimer{
